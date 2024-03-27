@@ -1,0 +1,28 @@
+body{
+  background-color: #161513;
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header{
+  background-color: #1e1e1d;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  margin-left: 25px; margin-right: 25px;
+}
+.link:hover{
+  color: rgb(159, 159, 159);
+}
+/* style Cards */

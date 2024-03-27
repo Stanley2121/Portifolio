@@ -1,0 +1,115 @@
+body{
+  background-color: #161513;
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header{
+  background-color: #1e1e1d;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  margin-left: 25px; margin-right: 25px;
+}
+.link:hover{
+  color: rgb(159, 159, 159);
+}
+/* style content contact 1 */
+.divContact{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dataContact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95vw;
+}
+.titleDataContact{
+  color: white;
+}
+.divInfoContact{
+  display: flex;
+  flex-direction: column;
+}
+#linksContact{
+  color: white;
+  margin: 15px;
+}
+.btnWhatsapp{
+  color: white;
+  background-color: #3ec93f;
+  height: 40px;
+  width: 300px;
+  border: transparent;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.btnWhatsapp:hover{
+  background-color: #03ea03;
+  transition: 0.2s;
+}
+/* style content contact 2 */
+.divSubmitMessage{
+  display: flex;
+  flex-direction: column;
+}
+#name, #email{
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: transparent;
+}
+#message{
+  border-radius: 10px;
+  border: transparent;
+  max-width: 400px;
+  min-height: 140px;
+}
+.btnSubmit{
+  height: 40px;
+  width: 406px;
+  border: transparent;
+  border-radius: 15px;
+  color: white;
+  background-color: #fa9b09;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.btnSubmit:hover{
+  background-color: #fa9a09be;
+  transition: 0.2s;
+}
+@media(max-width: 860px){
+  .dataContact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divSubmitMessage{
+    margin-top: 120px;
+  }
+}

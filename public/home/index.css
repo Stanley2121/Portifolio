@@ -1,0 +1,100 @@
+body{
+  background-color: #161513;
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #1e1e1d;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  margin-left: 25px; margin-right: 25px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.link:hover{
+  color: rgb(159, 159, 159);
+}
+
+/* style presentation */
+.divPresentation{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.presentation{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgAvatar{
+  width: 125px;
+  border-radius: 100px;
+}
+.titleH1{
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 40px;
+  width: 15ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.classParagraphPresentation{
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+}
+.GetInTouch{
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  background-color: white;
+  height: 50px;
+  width: 130px;
+  border-radius: 25px;
+  border: transparent;
+  margin-top: 40px;
+}
+.GetInTouch:hover{
+  background-color: transparent;
+  color: white;
+  border: white 3px solid;
+  transition: 0.3s;
+}
+.DownloadCV{
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  background-color: transparent;
+  height: 50px;
+  width: 130px;
+  border-radius: 25px;
+  border: white 3px solid;
+}
+.DownloadCV:hover{
+  background-color: white;
+  color: black;
+  border: transparent;
+  transition: 0.3s;
+}
